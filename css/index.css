@@ -1,0 +1,252 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f1f1;
+	width: 100%;
+	font-family: Arial;
+}
+
+header {
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+	padding: 10px;
+	/*background: rgba(45, 52, 54,1.0);*/
+	box-sizing: border-box;
+	/*border-radius: 3px;*/
+	/*box-shadow: 0 2px 5px rgba(0,0,0,0.2);*/
+}
+
+.logo {
+	color: #f9ca24;
+	height: 60px;
+	font-size: 36px;
+	line-height: 60px;
+	padding: 0 50px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	font-weight: 700;
+	text-decoration: none !important;
+}
+
+.logo:hover {
+	color: #f9ca24;
+	text-shadow: 5px 5px 10px rgba(25,25,25,0.5); 
+}
+
+nav {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	display: block;
+	margin: 10px 0;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 550;
+}
+
+nav ul li a.active, 
+nav ul li a:hover {
+	background: #686de0;
+	color: #dff9fb;
+	transition: 0.5s;
+	box-shadow: 3px 3px 10px rgba(35,35,35,0.8);
+	border-radius: 3px;
+	font-size: 17px;
+	font-weight: 550;
+	text-shadow: 3px 3px 10px rgba(24,24,24,0.3);
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.background {
+	background: url(../images/background-ok.jpg) no-repeat;
+	background-size: 100%;
+	background-position: 0 -150px;
+	width: 100%;
+	height: 640px;
+}
+
+.inside-background {
+	background-color: rgba(0,0,0,0.77);
+	width: 100%;
+	height: 640px;
+}
+
+.h1-view-page1 {
+	color: #dcdde1;
+	/*text-transform: uppercase;*/
+	font-size: 75px;
+	text-align: center;
+	padding-top: 215px;
+	font-family: 'Maven Pro';
+	font-weight: 500;
+	text-shadow: 3px 3px 5px rgba(0,0,0,0.7)
+}
+
+/*EMP Services*/
+
+.emp-service {
+	width: 100%;
+	height: 640px;
+	background: #dcdde1;
+}
+
+.h1-emp-services {
+	padding-top: 35px;
+	font-family: 'Maven Pro';
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	color: #40739e;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.img-emp-services {
+	width: 220px;
+	height: 400px;
+	margin: 25px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: rgba(250,250,250,0.7);
+	border-width: 1px;
+	padding: 5px;
+	background-color: rgba(250,250,250,0.5);
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+}
+
+.emp-services-button {
+	border-style: solid;
+	border-color: #40739e;
+	border-radius: 5px;
+	border-width: 1px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none !important;
+	color: #40739e;
+	font-family: 'Rajdhani';
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.link-emp-services {
+	padding-bottom: 10px;
+}
+
+.emp-services-button:hover {
+	background: #40739e;
+	color: rgba(245,245,245,1);
+	font-weight: 600;
+	font-size: 18px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+	transition: 0.2s;
+}
+
+.p-emp-services {
+	font-family: 'Rajdhani';
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*Portofolio*/
+
+.portofolio-container {
+	width: 100%;
+	height: 640px;
+	background: #2f3640;
+}
+
+.h1-portofolio {
+	padding-top: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Maven Pro';
+	font-weight: 600;
+	font-size: 28px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+	color: #4cd137;
+}
+
+.image-slider-container {
+	padding-top: -100px;
+	border-radius: 10%;
+}
+.div1 {
+	width: 80%;
+	height: 450px;
+	background: #f1f1f1;
+}
+
+.button-left {
+	float: left;
+	padding: 25px;
+	border-color: none;
+}
+
+.button-right {
+	float: right;
+}
+
+.video {
+	width: 80%;
+	height: 80%;
+}
+
+.click-here {
+	font-family: 'Rajdhani';
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	color: rgba(245,245,245,0.8);
+}
+
+.slider-images {
+	width: 87%;
+	height: auto;
+	background: rgba(35,35,35,0.3);
+}
+
+.more-portofolio {
+	padding: 15px;
+	border-style: solid;
+	border-color: rgb(250,250,250);
+	border-radius: 5px;
+	text-decoration: none;
+	color: rgb(250,250,250);
+	text-align: center;
+	border-width: 1px;
+	transition: 0,5s;
+}
+
+.more-portofolio:hover {
+	background: rgba(250,250,250,0.9);
+	color: #2f3640;
+	transition: 0,5s;
+	font-weight: 700;
+}
+
+.more-p {
+	margin-top: 25px;
+}
